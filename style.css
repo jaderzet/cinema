@@ -1,0 +1,20 @@
+.Compra a {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 5px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.Compra a:hover {
+    background-color: #e74c3c;
+}
+
+body {
+    align-items: center;
+    
+}
+

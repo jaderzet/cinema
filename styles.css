@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: whitesmoke;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #34495e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.movie {
+    margin-bottom: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+.movie h3 {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+.movie p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.movie .details {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+.movie .trailer {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.movie .trailer:hover {
+    background-color: #ff8c66;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
+.Comprar {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 5px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
