@@ -6,16 +6,18 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: whitesmoke;
-    color: #333;
+   background-color: #002347;
+    color: white;
     line-height: 1.6;
 }
 
 header {
-    background: #34495e;
+    background: #ff8e00;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    align-items: end;
+    
 }
 
 header h1 {
@@ -53,7 +55,7 @@ section {
 section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #34495e;
+    color: white;
 }
 
 .movie {
@@ -85,9 +87,9 @@ section h2 {
 
 .movie .details {
     display: flex;
-    justify-content: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center; 
     align-items: center;
-    flex-direction: column; /* Alinha os elementos verticalmente */
+    flex-direction: column; 
 }
 
 .movie .trailer {
